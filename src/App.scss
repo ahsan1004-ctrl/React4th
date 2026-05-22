@@ -1,0 +1,11 @@
+$primary : #0d053b;
+@import './scss/bootstrap';
+@import './scss/auth';
+@import './scss/screenloader';
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
