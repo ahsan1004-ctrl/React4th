@@ -24,7 +24,7 @@ const AuthContext = ({ children }) => {
         setTimeout(() => {
             readProfile()
             setIsAppLoading(false)
-        }, 2000);
+        }, 1800);
 
     }, [])
 

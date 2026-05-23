@@ -52,13 +52,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-        <div class="container">
+      <nav className="navbar navbar-expand-md navbar-dark bg-primary">
+        <div className="container">
           <Link to='/' className="navbar-brand">My Todo</Link>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className='navbar-nav me-auto'>
               <li className="nav-item">
                 <Link to='/' className="nav-link"><HomeOutlined /> Home</Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 <Link to='/todos' className="nav-link">Todos</Link>
               </li>
             </ul>
-            <div class="d-flex" role="search">
+            <div className="d-flex" role="search">
               {isAuth ? (
                 <div className="d-flex align-items-center">
                   <Dropdown {...sharedProps} styles={functionStyles} trigger={['click']}>

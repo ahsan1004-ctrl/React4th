@@ -2,7 +2,7 @@ import { Navigate, Route, Routes } from "react-router-dom"
 
 import Frontend from "./Frontend"
 import Auth from "./Auth"
-import Dashboard from "./Dashboard"
+import Dashboard from "./Dashboard/Dashboard"
 import PrivateRoutes from "../components/PrivateRoute/PrivateRoutes"
 import { useAuth } from "../context/Auth"
 
